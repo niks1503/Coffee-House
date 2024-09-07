@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: url(coffee-title-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    box-shadow: 0px 0px 8px black;
+    margin-bottom: 40px;
+    display: block;
+}
+
+header > input {
+    position: sticky;
+    top: 60px;
+    left: 15%;
+    width: 70%;
+    height: 60px;
+    border-radius: 10px;
+    background-color: rgba(59, 4, 4, 0.968);
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+input:focus{
+    border:0;
+    outline: none;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.menu .coffee {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: space-evenly;
+    width: 170px;  /* Adjust the size of your circular div */
+    height: 170px;
+ 
+    border-radius: 100%;
+    margin: 10px;
+    margin: 10px;
+   
+    position: relative;
+    box-shadow: 0px 10px 15px black;;
+    
+}
+
+.menu .coffee img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the div while maintaining aspect ratio */
+    border-radius: 100%; /* Makes the image circular */
+   
+}
+
+.menu .coffee h2 {
+    position: absolute;
+    bottom: -40px; /* Moves the title slightly outside the circle */
+    align-self: center;
+    color:grey ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+.menu .coffee img:hover{
+    transform: scale(1.1); /* Increases the size of the image when hovered */
+}
+
+main {
+    
+.desc1, .desc2{
+  margin:80px;
+   padding: 30px;
+   padding-top: 35px;
+
+   
+   background-color: pink;
+   border-radius: 5px;
+   box-shadow: 0px 0px 6px 2px rgb(188, 104, 118);
+   
+   h2, p, ol{
+    color: rgb(159, 24, 24);
+   }
+   
+   h2{
+    margin: 4px;
+   }
+   ol{
+    line-height: 30px;
+   }
+   
+   
+}
+
+
+}
